@@ -9,14 +9,15 @@ describe "Tuktuk module", ->
 		@collection.remove()
 		@view.remove()
 
-	it "expect a model class", ->
-		expect(App.Models.tuktuk).to.be.a "function"
-		expect(@model).to.be.an "object"
+	
+	#it "expect a model class", ->
+	#	expect(App.Models.tuktuk).to.be.a "function"
+	#	expect(@model).to.be.an "object"
 
-	it "expect a collection class", ->
-		expect(App.Collections.tuktuk).to.be.a "function"
-		expect(@collection).to.be.an "object"
+	#it "expect a collection class", ->
+	#	expect(App.Collections.tuktuk).to.be.a "function"
+	#	expect(@collection).to.be.an "object"
 
-	it "expect a view class", ->
-		expect(App.Views.tuktuk).to.be.a "function"
-		expect(@view).to.be.an "object"
+	#it "expect a view class", ->
+	#	expect(App.Views.tuktuk).to.be.a "function"
+	#	expect(@view).to.be.an "object"

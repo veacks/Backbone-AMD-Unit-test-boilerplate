@@ -11,6 +11,6 @@ define [
     
     #Init of default view
     defaultAction: () ->
-      #App.main.view.render()
+      app.main.render()
       true
   )

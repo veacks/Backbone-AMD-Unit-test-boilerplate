@@ -25,15 +25,10 @@ define ["jam/chai/chai.js", "plugins/sinon/sinon-chai.js", "jam/sinon/sinon.js"]
 		require [config.main]
 
 		filesDone = []
-		
-		done = (name) ->
-			#console.log filesDone.length+" "+config.toTest.length
-			filesDone.push(name)
-			if filesDone.length is config.toTest.length
-				#console.log name
-				mocha.run()
 
 		require.onResourceLoad = (context, map, depArray) ->
 			if config.toTest.indexOf(map.name) > -1
 				require ["../unit-test/test/"+map.name+config.ext], ->
-					done(map.name)
+					filesDone.push(map.name)
+					if filesDone.length is config.toTest.length
+						mocha.run()

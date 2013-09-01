@@ -7,6 +7,7 @@
         "*actions": "defaultAction"
       },
       defaultAction: function() {
+        app.main.render();
         return true;
       }
     });

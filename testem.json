@@ -2,7 +2,7 @@
   "framework": "mocha",
   "test_page":"unit-test/testem.html",
   "before_tests":"coffee -c unit-test/test/",
-  "on_exit": "rm *.js",
+  "after_tests": "find unit-test/test/ -iname \"*.js\" -exec rm '{}' ';'",
   "src_files": ".coffee",
   "serve_files": ".js"
 }

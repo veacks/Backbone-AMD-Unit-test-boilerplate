@@ -11,11 +11,6 @@ var jam = {
             "main": "dist/jquery.js"
         },
         {
-            "name": "three",
-            "location": "jam/three",
-            "main": "dist/three.js"
-        },
-        {
             "name": "underscore",
             "location": "jam/underscore",
             "main": "underscore.js"
@@ -50,11 +45,6 @@ if (typeof require !== "undefined" && require.config) {
             "main": "dist/jquery.js"
         },
         {
-            "name": "three",
-            "location": "jam/three",
-            "main": "dist/three.js"
-        },
-        {
             "name": "underscore",
             "location": "jam/underscore",
             "main": "underscore.js"
@@ -86,11 +76,6 @@ else {
             "name": "jquery",
             "location": "jam/jquery",
             "main": "dist/jquery.js"
-        },
-        {
-            "name": "three",
-            "location": "jam/three",
-            "main": "dist/three.js"
         },
         {
             "name": "underscore",
