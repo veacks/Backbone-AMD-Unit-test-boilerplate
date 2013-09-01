@@ -1,0 +1,16 @@
+{
+  "framework": "mocha",
+  "test_page":"unit-test/testem.html",
+  "src_files": [
+    "js/jam/require.js",
+    "js/jam/jquery/dist/jquery.min.js",
+    "js/jam/underscore/underscore.js",
+    "js/jam/backbone/backbone.js",
+    "js/libs/tquery/tquery-bundle.js",
+    "js/app.js",
+    "unit-test/jam/chai/chai.js",
+    "unit-test/plugins/sinon/sinon-chai.js",
+    "unit-test/jam/sinon/sinon.js",
+    "unit-test/test/*.js"
+  ]
+}

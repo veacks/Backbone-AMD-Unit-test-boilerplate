@@ -1,0 +1,8 @@
+{
+  "framework": "mocha",
+  "test_page":"unit-test/testem.html",
+  "before_tests":"coffee -c unit-test/test/",
+  "on_exit": "rm *.js",
+  "src_files": ".coffee",
+  "serve_files": ".js"
+}

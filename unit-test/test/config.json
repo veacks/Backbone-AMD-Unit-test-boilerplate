@@ -1,0 +1,5 @@
+{
+	"ext" : ".spec",
+	"main" : "main",
+	"toTest" : ["main", "app/router", "app/modules/main", "app/modules/tuktuk"]
+}
