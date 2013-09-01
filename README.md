@@ -1,5 +1,5 @@
-PERSONAL FRONT-END BACKBONE, AMD, SASS, AND CHAI BOILERPLATE 
-============================================================
+FRONT-END BACKBONE, AMD, SASS, AND CHAI BOILERPLATE 
+===================================================
 
 ENVIRONMENT REQUIRED :
 -----------------------
