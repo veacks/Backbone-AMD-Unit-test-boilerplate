@@ -10,7 +10,7 @@ ENVIRONMENT REQUIRED :
 
         $ sudo npm install coffeescript -g
 
-- [Compass (SAAS/SCSS)] (http://compass-style.org/) - Install Compass to use Saas or Scss
+- [Compass (SASS/SCSS)] (http://compass-style.org/) - Install Compass to use Sass or Scss
 
 		$ gem update --system
 		$ gem install compass
