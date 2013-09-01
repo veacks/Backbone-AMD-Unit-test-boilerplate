@@ -41,16 +41,15 @@ AUTORUN :
 ---------
 
 - OSX 10.8+ : launchers/apple.autorun.app : launch "Compass", "Coffee-script" and "Test'em" in terminal.
--------------
+
 
 CONFIGURATION :
 ---------------
 
-- [Api] : coffee/config.coffee
----------
+- Api : coffee/config.coffee
 
-- [Unit-test] : unit-test/test/config.json
----------------
+- Unit-test : unit-test/test/config.json
+
 
 TUTORIAL AND GOOD PRACTICE :
 ----------------------------
