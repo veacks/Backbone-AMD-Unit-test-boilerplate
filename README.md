@@ -21,9 +21,11 @@ ENVIRONMENT REQUIRED :
 		$ sudo npm install jamjs -g
 
 - [JsDom] (https://github.com/tmpvar/jsdom) - Install JsDom, a client and server side dom template engine.
+
 		$ sudo npm install jsdom -g
 
 - [jquery] (http://jquery.com) - Install Jquery for node.js
+
 		$ sudo npm install jquery -g
 
 - [MOCHA] (http://visionmedia.github.io/mocha/) - Install Mocha, a test framework client and server side
