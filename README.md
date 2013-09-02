@@ -51,8 +51,8 @@ CONFIGURATION :
 - Unit-test : unit-test/test/config.json
 
 
-TUTORIAL AND BEST PRACTICE :
-----------------------------
+TUTORIAL AND BEST PRACTICES :
+-----------------------------
 	
 First, launch the autorun. This one will allow you to compile automatically your coffeescript, Sass/Scss and run your unit tests on terminal in separated tabs.
 
