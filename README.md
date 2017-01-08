@@ -28,7 +28,7 @@ ENVIRONMENT REQUIRED :
 
 		$ sudo npm install jquery -g
 
-- [MOCHA] (http://visionmedia.github.io/mocha/) - Install Mocha, a test framework client and server side
+- [MOCHA] (http://mochajs.org/) - Install Mocha, a test framework client and server side
 
 		$ sudo npm install mocha -g
 
